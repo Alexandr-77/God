@@ -1,0 +1,224 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul, li {
+    padding: 0;
+	 list-style: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* ////// */
+
+
+
+/* .container-solid {
+    border: solid 5px tomato;
+    padding: 15px;
+} */
+
+
+/* ========== header ========== */
+
+.header {
+    background: url(../img/header/header-fon.jpg) 0 0 / cover no-repeat;
+    min-height: 750px;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #00446b;
+    padding: 30px 0 6px;
+}
+.header__block-item a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #00446b;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.header__block-item a:hover {
+    color: #880000;
+} 
+.header__block-item a i {
+    margin-right: 5px;
+}
+
+/* ======================= */
+.header__main {
+    margin-top: 120px;
+    /* max-width: 800px; */
+}
+.header__main h1 {
+    font-family: '';
+    font-weight: bold;
+    font-size: 61px;
+    line-height: 120%;
+    color: #011a29;
+    margin-bottom: 25px;
+}
+.header__main h1 span {
+    color: #0BECDF;
+    color: #cfc09f;
+    text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+.header__main p {
+    font-size: 25px;
+    line-height: 145%;
+    color: #00446b;
+    margin-bottom: 35px;
+    text-indent: 50px;
+}
+/* ======== noun ======= */
+.noun {
+    padding: 50px 0 50px;
+}
+/* .noun__wrap {
+    display: flex;
+} */
+.noun__wrap-image {
+    width: 350px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+.noun__text {
+    font-size: 20px;
+    line-height: 140%;
+    color: #910000;
+}
+.noun__block {
+    display: flex;
+    justify-content: center;
+    gap: 15px 15px;
+    flex-wrap: wrap;
+    margin: 50px 0 50px;
+}
+.noun__block-item {
+    display: flex;
+    align-items: flex-start;
+    width: 512px;
+    padding: 10px 15px;
+    background: #3bc4ff;
+    background: #38e9ff75;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.noun__block-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color: #000;
+    
+}
+.noun__block-item a i  {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+.noun__block-item:hover {
+    background: #99e0ff;
+    background: #7aefff75;
+}
+.noun__block-item:hover a {
+    color: #880000;
+}
+/* ======== noun / ======= */
+
+.clearfix {
+    clear: both;
+}
+
+/* ========= footer =======  */
+.footer {
+    background: #202124;
+    min-height: 200px;
+}
+
+
+.class-mi {
+    background: rgb(222, 245, 255);
+    min-height: 200px;
+    margin-top: 120px;
+}
+
+.galleri {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.galleri a {
+    display: inline-flex;
+    width: 300px;
+
+}
+
+/* ====== Медиа 1200px ====== */
+@media (max-width: 1200px) {}
+/* ====== Медиа 1200px /====== */
+
+/* ====== Медиа 1140px ====== */
+@media (max-width: 1140px) {}
+/* ====== Медиа 1140px /====== */
+
+/* ====== Медиа 992px ====== */
+@media (max-width: 992px) {}
+/* ====== Медиа 992px /====== */
+
+/* ====== Медиа 768px ====== */
+@media (max-width: 768px) {}
+/* ====== Медиа 768px /====== */
+
+/* ====== Медиа 560px ====== */
+@media (max-width: 560px) {}
+/* ====== Медиа 560px /====== */
+
+/* ====== Медиа 400px ====== */
+@media (max-width: 400px) {
+    .header__block {
+        padding: 20px 0 4px;
+    }
+    .header__block-item a {
+        font-size: 16px;
+    }
+}
+/* ====== Медиа 400px /====== */
