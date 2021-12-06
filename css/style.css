@@ -159,16 +159,19 @@ a {
 .noun__text {
     font-size: 20px;
     line-height: 140%;
+    text-indent: 50px;
     color: #470000;
     background: #b6eaff;
     padding: 15px;
-    text-align: center;
     box-shadow: 0 10px 6px -6px #777;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.noun__text span {
+    font-style: italic;
 }
 .noun__block {
     display: flex;
