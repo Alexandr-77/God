@@ -107,7 +107,7 @@ a {
     font-size: 61px;
     line-height: 120%;
     color: #011a29;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .header__main h1 span {
     color: #0BECDF;
@@ -338,6 +338,7 @@ a {
 .footer__block-item p  {
     line-height: 130%;
     margin-bottom: 15px;
+    font-size: 16px;
 }
 .footer__contakt-h3 {
     margin-bottom: 50px !important;
@@ -394,13 +395,29 @@ p.footer__contakt-p {
 
 }
 
-/* ====== Медиа 1200px ====== */
-@media (max-width: 1200px) {}
-/* ====== Медиа 1200px /====== */
+/* ====== Медиа 1500px ====== */
+@media (max-width: 1500px) {
+    .footer {
+        padding: 40px 90px 14px;
+    }
+}
+/* ====== Медиа 1500px /====== */
 
-/* ====== Медиа 1140px ====== */
-@media (max-width: 1140px) {}
-/* ====== Медиа 1140px /====== */
+/* ====== Медиа 1250px ====== */
+@media (max-width: 1250px) {
+    .footer {
+        padding: 40px 40px 14px;
+    }
+}
+/* ====== Медиа 1250px /====== */
+
+/* ====== Медиа 1125px ====== */
+@media (max-width: 1125px) {
+    .footer {
+        padding: 50px 40px 14px;
+    }
+}
+/* ====== Медиа 1125px /====== */
 
 /* ====== Медиа 1040px ====== */
 @media (max-width: 1040px) {
@@ -416,15 +433,15 @@ p.footer__contakt-p {
 /* ====== Медиа 992px /====== */
 
 /* ====== Медиа 768px ====== */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 15px 14px;
+    }
+}
 /* ====== Медиа 768px /====== */
 
 /* ====== Медиа 560px ====== */
 @media (max-width: 560px) {
-    .header__main {
-        margin-top: 50px;
-        padding-bottom: 5px;
-    }
     .header__main h2 {
         font-size: 23px;
         line-height: 145%;
@@ -463,10 +480,6 @@ p.footer__contakt-p {
     .header__block-item a {
         font-size: 16px;
     }
-    .header__main {
-        margin-top: 25px;
-        padding-bottom: 5px;
-    }
     .header__main h2 {
         font-size: 18px;
         line-height: 125%;
@@ -488,6 +501,9 @@ p.footer__contakt-p {
     }
     p.footer__contakt-p {
         margin-bottom: 15px;
+    }
+    .footer {
+        padding: 40px 10px 14px;
     }
 }
 /* ====== Медиа 400px /====== */
